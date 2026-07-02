@@ -72,4 +72,7 @@ The M2M application needs  and  permissions on the Auth0 Management API.
 src/
   main.jsx     # Auth0Provider setup
   App.jsx      # Main app with auth state handling
+action/
+  link-accounts.js           # Post-Login Action (Account Linking) — deployed on Auth0
+  block-disposable-emails.js # Pre-Registration Action — deployed on Auth0
 ```
